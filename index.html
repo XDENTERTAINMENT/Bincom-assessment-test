@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Njeze Peter Nnabuike, a full-stack software developer in Lagos, Nigeria. Explore SocialMarketHQ, ExamifyEdu, and my development experience.">
+    <meta name="theme-color" content="#0b0c0b">
+    <title>Njeze Peter Nnabuike | Full-Stack Software Developer</title>
+    <link rel="icon" href="assets/images/peter.webp" type="image/webp">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">PN</span> Peter Njeze</a>
+            <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" hidden>
+                <span class="menu-icon" aria-hidden="true"></span>
+                Menu
+            </button>
+            <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+                <a href="#home" aria-current="location">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+        <section id="home" class="hero container" aria-labelledby="home-title" tabindex="-1">
+            <img class="portrait" src="assets/images/peter.webp" alt="Portrait of Njeze Peter Nnabuike" width="480" height="480" fetchpriority="high">
+            <p class="eyebrow">Full-Stack Software Developer</p>
+            <h1 id="home-title">Njeze Peter Nnabuike<span aria-hidden="true">.</span></h1>
+            <p class="hero-intro">I build responsive web interfaces and the backend systems behind them, from REST APIs and authentication to databases and background jobs.</p>
+            <div class="actions">
+                <a class="button button-primary" href="#projects">View Projects</a>
+                <a class="button" href="assets/documents/njeze-peter-nnabuike-cv.pdf" download>Download CV</a>
+            </div>
+        </section>
+
+        <section id="about" class="section container about" aria-labelledby="about-title" tabindex="-1">
+            <header class="section-heading">
+                <h2 id="about-title">About me</h2>
+            </header>
+            <div class="about-copy">
+                <p>I’m a full-stack developer based in Lagos, Nigeria. I build scalable web applications, working across responsive interfaces, backend systems, REST APIs, and database design.</p>
+                <p>Building SocialMarketHQ gave me hands-on experience with location-based discovery, caching, and background queues. On ExamifyEdu, I worked on connecting a React interface to APIs for creating and taking exams online.</p>
+                <p class="service-note">I’m currently undergoing my National Youth Service Corps (NYSC) programme.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section container" aria-labelledby="skills-title" tabindex="-1">
+            <header class="section-heading">
+                <h2 id="skills-title">Technical skills</h2>
+            </header>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul class="tags" role="list"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React</li><li>Next.js</li></ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Backend</h3>
+                    <ul class="tags" role="list"><li>Node.js</li><li>Express.js</li><li>NestJS</li><li>TypeScript</li><li>REST APIs</li></ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Database &amp; infrastructure</h3>
+                    <ul class="tags" role="list"><li>MongoDB</li><li>Mongoose</li><li>Redis</li><li>BullMQ</li></ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Development tools</h3>
+                    <ul class="tags" role="list"><li>Git</li><li>GitHub</li><li>Vercel</li><li>Render</li></ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section container" aria-labelledby="projects-title" tabindex="-1">
+            <header class="section-heading">
+                <h2 id="projects-title">Featured projects</h2>
+            </header>
+            <div class="project-grid">
+                <article class="project-card">
+                    <img class="project-image" src="assets/images/socialmarkethq.webp" alt="SocialMarketHQ landing page inviting buyers and sellers to connect" width="1351" height="600" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <p class="eyebrow">Social commerce</p>
+                        <h3>SocialMarketHQ</h3>
+                        <p>A marketplace where buyers can discover products nearby and connect with sellers. A Next.js and TypeScript frontend connects to a NestJS REST API with authentication, authorization, and MongoDB storage. Redis and BullMQ support caching and background processing.</p>
+                        <ul class="tags" role="list"><li>Next.js</li><li>TypeScript</li><li>NestJS</li><li>MongoDB</li><li>Redis</li><li>BullMQ</li></ul>
+                        <a class="button" href="https://www.socialmarkethq.com" target="_blank" rel="noopener noreferrer" aria-label="Visit website for SocialMarketHQ (opens in a new tab)">Visit website</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img class="project-image" src="assets/images/examifyedu.webp" alt="ExamifyEdu homepage with a preview of the assessment dashboard" width="1346" height="581" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <p class="eyebrow">Online assessments</p>
+                        <h3>ExamifyEdu</h3>
+                        <p>An examination platform for creating and managing assessments, setting up questions, and taking exams online. The React frontend connects to a Node.js and Express.js API backed by MongoDB, with authentication for access to exam workflows.</p>
+                        <ul class="tags" role="list"><li>React</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>JWT</li></ul>
+                        <a class="button" href="https://examifyedu.com" target="_blank" rel="noopener noreferrer" aria-label="Visit website for ExamifyEdu (opens in a new tab)">Visit website</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="gallery" class="section container" aria-labelledby="gallery-title" tabindex="-1">
+            <header class="section-heading">
+                <h2 id="gallery-title">Photo gallery</h2>
+            </header>
+            <ul class="gallery-grid" role="list">
+                <li><a href="assets/images/gallery-1294.webp"><img src="assets/images/gallery-1294.webp" alt="Selfie at a desk with a computer monitor" width="810" height="1080" loading="lazy" decoding="async"></a></li>
+                <li><a href="assets/images/gallery-0652.webp"><img src="assets/images/gallery-0652.webp" alt="Standing indoors in a white graphic T-shirt and tan trousers" width="810" height="1080" loading="lazy" decoding="async"></a></li>
+                <li><a href="assets/images/gallery-1453.webp"><img src="assets/images/gallery-1453.webp" alt="Seated portrait in glasses beside window blinds" width="810" height="1080" loading="lazy" decoding="async"></a></li>
+                <li><a href="assets/images/gallery-1659.webp"><img src="assets/images/gallery-1659.webp" alt="Standing beside a sofa in a graphic T-shirt and jeans" width="810" height="1080" loading="lazy" decoding="async"></a></li>
+                <li><a href="assets/images/gallery-0587.webp"><img src="assets/images/gallery-0587.webp" alt="Seated on a dark sofa near a large window" width="810" height="1080" loading="lazy" decoding="async"></a></li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section container" aria-labelledby="contact-title" tabindex="-1">
+            <div class="contact-panel">
+                <div>
+                    <h2 id="contact-title">Get in touch</h2>
+                    <p>For opportunities, project questions, or a walkthrough of my work, send me an email.</p>
+                    <a class="button button-primary" href="mailto:nnabuikenjeze@gmail.com">Email me</a>
+                </div>
+                <dl class="contact-list">
+                    <div><dt>Email</dt><dd><a href="mailto:nnabuikenjeze@gmail.com">nnabuikenjeze@gmail.com</a></dd></div>
+                    <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/peter-njeze-688301311/">Peter Njeze</a></dd></div>
+                    <div><dt>GitHub</dt><dd><a href="https://github.com/XDENTERTAINMENT">XDENTERTAINMENT</a></dd></div>
+                    <div><dt>Location</dt><dd>Lagos, Nigeria</dd></div>
+                </dl>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year">2026</span> Njeze Peter Nnabuike</p>
+            <nav aria-label="Social links">
+                <a href="https://www.linkedin.com/in/peter-njeze-688301311/">LinkedIn</a>
+                <a href="https://github.com/XDENTERTAINMENT">GitHub</a>
+            </nav>
+        </div>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-title">
+        <div class="lightbox-bar">
+            <h2 id="lightbox-title">Gallery photo</h2>
+            <form method="dialog"><button class="button" type="submit" autofocus>Close</button></form>
+        </div>
+        <figure>
+            <img alt="">
+            <figcaption aria-live="polite"></figcaption>
+        </figure>
+        <div class="lightbox-controls">
+            <button class="button" type="button" id="previous-photo">Previous</button>
+            <span id="photo-count"></span>
+            <button class="button" type="button" id="next-photo">Next</button>
+        </div>
+    </dialog>
+</body>
+</html>
